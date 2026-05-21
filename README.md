@@ -22,8 +22,14 @@ npm test
 
 Special thanks to:
 
-- [lumia1998](https://github.com/lumia1998)
-- [Procyon-Nan](https://github.com/Procyon-Nan)
+<p align="center">
+  <a href="https://github.com/lumia1998" title="lumia1998">
+    <img src="https://github.com/lumia1998.png?size=96" width="64" height="64" alt="lumia1998" style="border-radius: 50%;" />
+  </a>
+  <a href="https://github.com/Procyon-Nan" title="Procyon-Nan">
+    <img src="https://github.com/Procyon-Nan.png?size=96" width="64" height="64" alt="Procyon-Nan" style="border-radius: 50%;" />
+  </a>
+</p>
 
 ## Publishing
 
