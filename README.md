@@ -18,7 +18,13 @@ npm run build
 npm test
 ```
 
+## Acknowledgements
+
+Special thanks to:
+
+- [lumia1998](https://github.com/lumia1998)
+- [Procyon-Nan](https://github.com/Procyon-Nan)
+
 ## Publishing
 
 GitHub Actions uses npm trusted publishing/OIDC on `v*` tags. The first npm package and trusted publisher settings should be created in npm by the maintainer before relying on the workflow for automated publish.
-
