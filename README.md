@@ -24,10 +24,10 @@ Special thanks to:
 
 <p align="center">
   <a href="https://github.com/lumia1998" title="lumia1998">
-    <img src="https://github.com/lumia1998.png?size=96" width="64" height="64" alt="lumia1998" style="border-radius: 50%;" />
+    <img src="./docs/assets/acknowledgements/lumia1998.svg" width="64" height="64" alt="lumia1998" />
   </a>
   <a href="https://github.com/Procyon-Nan" title="Procyon-Nan">
-    <img src="https://github.com/Procyon-Nan.png?size=96" width="64" height="64" alt="Procyon-Nan" style="border-radius: 50%;" />
+    <img src="./docs/assets/acknowledgements/Procyon-Nan.svg" width="64" height="64" alt="Procyon-Nan" />
   </a>
 </p>
 
