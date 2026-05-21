@@ -1,0 +1,86 @@
+{
+  "name": "koishi-plugin-miyako-chatluna-baidu-netdisk",
+  "version": "1.0.0",
+  "description": "Baidu Netdisk transfer tool for ChatLuna, featuring pure Node.js/TypeScript API implementation and multi-account management.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist",
+    "docs",
+    "client",
+    "README.md",
+    "LICENSE"
+  ],
+  "exports": {
+    ".": "./lib/index.js",
+    "./package.json": "./package.json"
+  },
+  "keywords": [
+    "koishi",
+    "koishi-plugin",
+    "chatluna",
+    "baidu",
+    "pcs",
+    "transfer",
+    "miyako"
+  ],
+  "author": "yabo",
+  "homepage": "https://github.com/yabo083/koishi-plugin-miyako-chatluna-baidu-netdisk",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yabo083/koishi-plugin-miyako-chatluna-baidu-netdisk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yabo083/koishi-plugin-miyako-chatluna-baidu-netdisk/issues"
+  },
+  "license": "AGPL-3.0-only",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "npm run build:server && npm run build:client",
+    "build:server": "tsc -p tsconfig.json",
+    "build:client": "koishi-console build .",
+    "test": "npm run build && node --test tests/*.test.cjs",
+    "prepublishOnly": "npm run build",
+    "pub": "npm run build && npm publish --access public --provenance"
+  },
+  "peerDependencies": {
+    "koishi": "^4.18.0",
+    "koishi-plugin-chatluna-character": "*"
+  },
+  "peerDependenciesMeta": {
+    "koishi-plugin-chatluna-character": {
+      "optional": true
+    }
+  },
+  "dependencies": {
+    "@langchain/core": "^0.3.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@koishijs/client": "^5.30.11",
+    "@types/node": "^22.7.5",
+    "typescript": "^5.6.2"
+  },
+  "yakumo": {
+    "client": "./client/index.ts"
+  },
+  "koishi": {
+    "public": [
+      "dist"
+    ],
+    "description": {
+      "zh": "Miyako ChatLuna 百度网盘转存工具：原生 Node.js 网盘分享解析与转存、多账号管理面板。"
+    },
+    "service": {
+      "optional": [
+        "chatluna",
+        "server",
+        "console",
+        "database"
+      ]
+    }
+  }
+}
