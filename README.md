@@ -29,6 +29,9 @@ Special thanks to:
   <a href="https://github.com/Procyon-Nan" title="Procyon-Nan">
     <img src="./docs/assets/acknowledgements/Procyon-Nan.svg" width="64" height="64" alt="Procyon-Nan" />
   </a>
+  <a href="https://github.com/BlakSatori" title="BlakSatori">
+    <img src="./docs/assets/acknowledgements/BlakSatori.svg" width="64" height="64" alt="BlakSatori" />
+  </a>
 </p>
 
 ## Publishing
